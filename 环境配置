@@ -1,0 +1,9 @@
+// 创建目录
+1.mkdir myapp && cd myapp
+// 创建项目
+2.yarn create umi
+(1.选择 app,2.去除额外安装的typescript)
+// 初始化项目
+3.npm start
+// 安装typescript
+4. npm install typescript
