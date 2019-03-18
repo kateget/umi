@@ -1,0 +1,13 @@
+1.创建表单 
+@Form.create()
+export default class extends Component{}
+报错
+错误：Parsing error: Using the export keyword between a decorator and a class is not allowed. Please use `export @dec class` instead.
+解决：
+文件.eslintrc下添加配置
+"parserOptions": {
+      "ecmaFeatures": {
+          "legacyDecorators": true,
+          "experimentalObjectRestSpread": true
+      }
+  }
