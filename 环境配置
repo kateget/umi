@@ -4,6 +4,6 @@
 2.yarn create umi
 (1.选择 app,2.去除额外安装的typescript)
 // 初始化项目
-3.npm start
+3.npm install
 // 安装typescript
 4. npm install typescript
