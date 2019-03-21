@@ -1,0 +1,25 @@
+{
+  "extends": "umi",
+  "rules": {
+      "indent": [
+          "error",
+          4,
+          {
+              "SwitchCase": 1
+          }
+      ],
+      "max-len": [
+          "error",
+          {
+              "code": 500
+          }
+      ]
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+      "ecmaFeatures": {
+          "legacyDecorators": true,
+          "experimentalObjectRestSpread": true
+      }
+  }
+}
