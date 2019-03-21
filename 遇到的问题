@@ -11,3 +11,6 @@ export default class extends Component{}
           "experimentalObjectRestSpread": true
       }
   }
+2.由于自己从官网拉的配置，用自己的方法调用不到model里面的方法，于是我自己从官网上面下下来了一个例子:
+https://umijs.org/zh/guide/examples.html
+umi-dva-user-dashboard，umi + dva 的 dashboard 例子
