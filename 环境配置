@@ -7,4 +7,12 @@
 3.npm install
 // 安装typescript
 4. npm install typescript
+// 安装 egg
+5. npm i egg-init -g
+  egg-init egg-example --type=simple
+  cd egg-example
+  npm i
+  npm run dev
+  open localhost:7001
 // egg mysql 安装
+6. npm i --save egg-mysql
