@@ -11,3 +11,5 @@ export default class extends Component{}
           "experimentalObjectRestSpread": true
       }
   }
+2.git clone失败
+ 解决：https://blog.csdn.net/jingtingfengguo/article/details/51892864
