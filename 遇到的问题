@@ -13,3 +13,5 @@ export default class extends Component{}
   }
 2.git clone失败
  解决：https://blog.csdn.net/jingtingfengguo/article/details/51892864
+3.These dependencies were not found
+解决：更新最新的umi 和umi相关依赖
