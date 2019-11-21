@@ -15,3 +15,5 @@ export default class extends Component{}
  解决：https://blog.csdn.net/jingtingfengguo/article/details/51892864
 3.These dependencies were not found
 解决：更新最新的umi 和umi相关依赖
+4.配置 publicPath 校验失败, The publicPath config must ends with /.
+publicPath: '/',
