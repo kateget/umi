@@ -17,3 +17,5 @@ export default class extends Component{}
 解决：更新最新的umi 和umi相关依赖
 4.配置 publicPath 校验失败, The publicPath config must ends with /.
 publicPath: '/',
+5.拉不到静态图片
+https://www.jianshu.com/p/c98480042c59
