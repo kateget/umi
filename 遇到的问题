@@ -19,3 +19,14 @@ export default class extends Component{}
 publicPath: '/',
 5.拉不到静态图片
 https://www.jianshu.com/p/c98480042c59
+6.PARSING ERROR: USING THE EXPORT KEYWORD BETWEEN A DECORATOR AND A CLASS IS NOT ALLOWED
+修饰器问题：
+ .eslintc.js
+ 添加：
+"parserOptions": {
+        "ecmaFeatures": {
+            "legacyDecorators": true,
+            "experimentalObjectRestSpread": true
+        }
+    }
+7.
