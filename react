@@ -1,0 +1,6 @@
+1. 安装插件
+simple react snippets
+2.需要注意的问题
+方法需要用bind绑定   onClick={this.deleteItem.bind(this,index)} 
+
+解析数据中的标签 dangerouslySetInnerHTML={{__html: item}}
