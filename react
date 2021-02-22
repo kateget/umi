@@ -6,3 +6,12 @@ simple react snippets
 解析数据中的标签 dangerouslySetInnerHTML={{__html: item}}
 
 3.基础学习
+
+4.优化
+当父组件数据变化时，子组件会反复刷新，执行render等函数，可以加入如下代码进行优化
+shouldComponentUpdate(nextProps,nextState){
+        if(nextProps.content !== this.props.nextProps){
+            return true
+        }
+        return false
+    }
