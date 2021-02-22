@@ -4,3 +4,5 @@ simple react snippets
 方法需要用bind绑定   onClick={this.deleteItem.bind(this,index)} 
 
 解析数据中的标签 dangerouslySetInnerHTML={{__html: item}}
+
+3.基础学习
