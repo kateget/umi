@@ -1,0 +1,42 @@
+1.使用的mock工具为 puer-mock
+安装：
+=== npm install puer@1.x -g
+=== npm install puer-mock --save-dev  // 由于只有开发时候需要使用，所以可以使用save-dev
+=== 将node_modules/puer-mock/example文件复制到您的项目根目录
+=== puer -a _mockserver.js 或者加入命令 “ dev ”：  “ puer -a _mockserver.js ”
+=== 模拟api
+打开http://localhost:8000/api/configdemo-response/mock视图模拟API返回模拟数据
+打开http://localhost:8000/api/configdemo-response/mock?callback=test视图模拟API通过JSONP返回模拟数据
+=== 配置数据
+在中配置模拟API _mockserver.json
+例子：
+{
+    "api":{
+        "Get /api/users": {
+            "response":{
+                "status": 0,
+                "statusInfo":{
+                    "message": "ok"
+                },
+                "data": {
+                    "users|10-30": [{
+                        "id": "@id",
+                        "guid": "@guid",
+                        "index": "@increment",
+                        "name": "@cname",
+                        "province": "@province",
+                        "email": "@email",
+                        "desc": "@cparagraoh",
+                        "avatar": "@image(200X100)",
+                        "age": "@integer(10,50)",
+                        "money": "@float(0,100,2,2)",
+                        "isVin": "@boolean",
+                        "date": "@now",
+                        "timestamp": "@integer(14/1497895528,141497895528)"
+                    }]
+                }
+            }
+        }
+    }
+}
+http://localhost:8000/api/users
